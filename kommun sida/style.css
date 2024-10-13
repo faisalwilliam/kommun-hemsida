@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    background-color: #2b7183; 
+  }
+  header {
+    background-color: #7D8ABC ; /* Mörkgrå färg för rubriken */
+    color: #32af5c; 
+    padding: 20px 0; 
+    text-align: center; /* Centrera texten */
+  }
+  header .container {
+    display: flex; /* Använd Flexbox för att styra innehållet */
+    align-items: center; 
+  }
+  header img {
+    height: 80px; 
+    margin-right: 20px; 
+  }
+  nav {
+    background-color: #912BBC; /* Ljusgrå färg för navigeringen */
+    padding: 10px 0; 
+  }
+  nav ul {
+    list-style: none; /* Ta bort punkterna */
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+  }
+  nav li {
+    display: inline-block; /* Visa länkarna sida vid sida */
+    margin: 0 10px; 
+  }
+  nav a {
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold; 
+    color: white;
+  }
+  main {
+    padding: 20px 0; 
+  }
+  .container {
+    width: 80%; 
+    margin: 0 auto; /* Centrera innehållet */
+  }
+  .hero {
+    text-align: center; 
+    background-color: #1E0342 ; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+  }
+  .hero h2 {
+    font-size: 2.5em; 
+    color: white;
+  }
+  p{
+    
+    color: white;
+  }
+  .highlights {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; /* Avstånd mellan elementen */
+  }
+  .highlight-item {
+    width: 32%; 
+    margin-bottom: 20px; 
+    background-color: #fff; 
+    padding: 10px; 
+    text-align: center; 
+  }
+  .highlight-item img {
+    width: 100%;  
+    height: auto; 
+    margin-bottom: 10px; 
+  }
+  .news {
+    background-color: #fff; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+  }
+  .quick-links {
+    background-color: #fff; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+  }
+  footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 10px 0; 
+  }
